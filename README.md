@@ -11,21 +11,17 @@
 
 ## 安装
 
-### 方法一：通过 curl 一行命令安装（推荐）
+### 方法一：直接复制到 `.zshrc`（推荐）
 
-在终端运行以下命令即可安装：
-
-```bash
-echo 'source <(curl -s https://raw.githubusercontent.com/zzh0u/listPWD/main/list_pwd.sh)' >> ~/.zshrc
-```
-
-然后重新加载配置：
+1. 打开 list_pwd.sh 文件，复制全部内容
+2. 粘贴到 `~/.zshrc` 文件末尾
+3. 重新加载配置：
 
 ```bash
 source ~/.zshrc
 ```
 
-### 方法二：手动安装
+### 方法二：下载后 source
 
 1. 克隆或下载此项目
 2. 在 `~/.zshrc` 中添加以下行：
